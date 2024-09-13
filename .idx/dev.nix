@@ -1,3 +1,5 @@
+#im just going to use live server and call it a day.
+/*
 { pkgs, ... }: {
   channel = "stable-23.11";
   packages = [
@@ -19,3 +21,4 @@
     };
   };
 }
+*/
