@@ -12,7 +12,7 @@ document.addEventListener('DOMContentLoaded', () => {
         
         if (inputValue !== '') {
             paragraphCounter++; // Increment the counter
-            const newParagraph = document.createElement('p');
+            const newParagraph = document.createElement('button');
             newParagraph.id = `userPara-${paragraphCounter}`; // Set a unique ID
             newParagraph.textContent = inputValue;
             
@@ -30,31 +30,28 @@ document.addEventListener('DOMContentLoaded', () => {
     
 });
 
+document.addEventListener('click', function(event) {
+    const targetElement = event.target;
+    
+    // Check if the clicked element's ID includes "userPara"
+    if (targetElement.id && targetElement.id.includes('userPara')) {
+        console.log(`Clicked element with ID: ${targetElement.id}`);
+        
+        // Add your custom logic here
+        handleUserParaClick(targetElement);
+    }
+});
 
+function handleUserParaClick(element) {
+    // Implement your desired action when a "userPara" element is clicked
+    console.log(`You clicked: ${element.textContent || 'an empty paragraph'}`);
+    
+    const finalRes = document.getElementById('finalRes');
 
-// Function to handle clicks on userPara elements
-function handleClick(event) {
-  console.log('Clicked on userPara element:', event.target)
-  console.log("selectedElement", selectedElement.id)
-  
-    // Clear any previously selected element
-  if (selectedElement) {
-    selectedElement.classList.remove('selected');
-  }
+    //.textContent("yeah lmao")
+    finalRes.appendChild(document.createElement('button'))
+    
 
-  // Store the clicked element in the variable
-  selectedElement = event.target;
-
-  // Add 'selected' class to the clicked element
-  selectedElement.classList.add('selected');
-  console.log("browtone has been seleted")
-  
 }
 
-// Initialize variables
-let selectedElement = null;
 
-// Add click listeners to all userPara elements
-userParaElements.forEach(element => {
-  element.addEventListener('click', handleClick);
-});
