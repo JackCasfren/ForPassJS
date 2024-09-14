@@ -1,4 +1,33 @@
 
+//! just testing out how i could make a super simple password
+
+
+let finPass = ''
+let exclatamtion = "!"
+
+exclatamtion = exclatamtion.repeat(3)
+finPass += exclatamtion
+
+//console.log(finPass)
+let micro = "Microsoft"
+micro = micro.length
+micro = micro.toString().repeat(2) 
+finPass += micro
+//console.log(finPass)
+let color = "Blue"
+finPass += color
+
+//console.log(finPass)
+let Paella = "Paella"
+
+finPass += Paella
+
+console.log ("this should work:")
+console.log(finPass)
+
+
+
+
 
 // counter so every new element has a unique ID.
 let paragraphCounter = 0;
