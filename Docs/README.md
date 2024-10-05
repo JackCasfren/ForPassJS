@@ -1,39 +1,36 @@
 # ForPassJS
 
-## TLDR What is ForPassJS?
-
-Software for Creating and Resolving Password Formulas.
 # What is a formula based password?
-A formula based password is a form of password one that calculate once they are presented with a login page.
+A formula based password is a type of password structure that is calculated when it is presented in a login page.
 
-e.g : You want to login into frame.work's website. 
-You know a series of things about this login, the color of the logo, the name, the shape of the logo.
-Based on this you consult your formula and you know your what your password is.
-Lets say your passwords formula says the following:
-> Get the shape of the logo + and add the 2 colors of the company(starts with caps) + the year this project started.
+Example: You want to login into [Framework's website](https://frame.work). 
+You know a number of things about this login, like the color of the logo, the name, the shape of the logo, etc.
+Based on this you can consult your formula and know your what is your password.
+Let's say your passwords formula is the following:
+> The shape of the logo + 2 colors of the company (Starting with Caps) + the year this project started.
 
 The result would be: 
 > "cogBlackGray2024"
 
-(this is a terrible password, but it is to give the idea on how to use it)
-Althogh, https://www.passwordmonster.com/ says it would take 333y to crack. I don't know how reliable this page is.
+(This is an example, as this is a terrible password)
+Although, https://www.passwordmonster.com/ says it would take 333y to crack. I don't know how reliable this page is.
 
-Making these password formulas can be hard, and calculating them too can be hard.
+Making password formulas and calculating them can be hard.
 
-Making a software that can asist you is ideal. ( would be awesome if it would be iplemented in keepass,vault warden, etc...)
+Making a software that can assist you is the best option (would be awesome if in the future was implemented in KeePass, vaultwarden/Bitwarden, etc...)
 
-## The Philosophy of Formula based passwords:
-They are a complement to password managers, or simple passwords in general.
-Intead of having to make something up on the spot, apply the formula you have designated to that area of your life.
+## The Philosophy inside Formula based passwords:
+They are complementary to password managers, or simple passwords in general.
+Instead of having to make something up on the spot, apply the formula you have designated to that area of your life.
 
-1. The formula Must be hard enough to not be able to reverse engineer. If a threat actor manages to the resulting password, the formula should not be discovered.
-2. The formula can be made easy to remeber, so in a pickle the password can be aplied and the password aquired.
-3. The formula must be ____ (insert thing here, i can't remeber, i think just having two options here is weak).
+1. The formula must be hard enough to make reverse engineering impossible. If a threat actor manages to get the resulting password, the formula should not be discovered.
+2. The formula can be made easy to remember, so in a pickle the password can be applied and aqquired.
+3. The formula must be ____ (insert thing here, I can't remember, I think just having two options here feels weak).
 
-## ForPass Accesability
+## ForPass Accesibility
 
 The code must be vanilla TS.
-Allowing users to download the code and use it without external tools and offline is critical.
+Self-hosting of the tool and allowing the users to use it without external tools is critical.
 A simple double click on index.html should do the job.
 
 Also so I can understand it.
@@ -48,14 +45,14 @@ Also so I can understand it.
 
 ## Far fetched to-do
 
-Finish the beta
-Have a website that hosted a beta
-Integrate with other services
-Be adopted as a better standard
-Tests?
+- [] Finish the beta
+- [] Have a website that hosted a beta
+- [] Integrate with other services
+- [] Be adopted as a better standard
+- [] Tests?
 
 
-## Coment on IBM's password making video.
+## Comment on IBM's password making video.
 https://www.youtube.com/watch?v=xUp5S0nBnfc
 
 Two columns are made 2 on the left with things that should not be considered any more:
@@ -80,7 +77,7 @@ I do agree that exipirations are not a great idea, but simply using symbols is n
 
 I know, that is why the formulas can have many repeating values in asimetric ways, making them extendeble but not hard to remeber.
 
-with the rest of things i agree with.
+I agree with the rest of things.
 
 
 
