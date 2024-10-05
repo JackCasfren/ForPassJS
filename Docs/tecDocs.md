@@ -1,26 +1,8 @@
 # UX
 
 ## Simple (what is css? lol)
-This is the very basic UI.
+This is the very basic UI. Suprisingly i just droped it in chatgpt and it did ok. LL(Leson Learned) no analysis paralisis just white some stuff.
 ```
-
-select variable:    | Dinamic Variables: dval1 dval2 dval3  | Edit
-[______________]    | Base Variables: Bval1 Bval2 Bval3     | Edit
-        ||
-Selected Modifier:  | List of Modifiers:                    | Search🔎
-[_______________]   | AddValues, CountLetters, PickLetter, Repeat
-        ||
-        \/
-Result:
-[[_________________]]
-
-Formula:            | Copy to clipboard
-[__________________________]
-[__________________________]
-
-
-
-Simple2 (what is css? lol)
 
 select variable:    | Dinamic Variables: dval1 dval2 dval3  | Edit
 [______________]    | Base Variables: Bval1 Bval2 Bval3     | Edit
@@ -39,18 +21,6 @@ Formula:            | Copy to clipboard
 [__________________________]
 
 ```
-
-
-
-
-
-
-
-
-
-
-
-
 
 Complex:
 
