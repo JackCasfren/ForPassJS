@@ -59,7 +59,7 @@ Tests?
 https://www.youtube.com/watch?v=xUp5S0nBnfc
 
 Two columns are made 2 on the left with things that should not be considered any more:
->"formulas"(which im going to call "Requirements"), i quote: "a formula you had to follow, mixture of upper and lower case letters, numbers, special characters things like that"
+>"formulas"(which im going to call "Requirements"), i quote: "a formula you had to follow, mixture of upper and lower case letters, numbers, special characters things like that [...] users end up with passwords they can't remember."
 
 Requirements do increase the strenght of the password, so having them is a plus.
 Just include them in your formula. idk, put 1 "?" between every word. (cog?Black?Gray?2024? -> 27 billion years lol)
