@@ -1,6 +1,6 @@
 # Setup:
 
-Just extract the folder and click on "index.html"
+Just extract the folder, and click on "index.html"
 And that is about it.
 
 to be safer, we recomend going to the browser developer console and disable networking.
