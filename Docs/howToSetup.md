@@ -8,3 +8,4 @@ you can do this by doing right click inspect element.
 the navigate to the network tab, and the dropdown menu that says "no trottle" change that to "offline".
 Afaik, this will not allow any out going packages, so if anyone made a malicious version of this software, you password won't be able to be leaked.
 
+
