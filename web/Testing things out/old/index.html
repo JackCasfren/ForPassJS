@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ForPass</title>
+    <link href="https://fonts.googleapis.com/css2?family=Monolisa:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="stylesheet.css">
+    <script src="scripts/script.js"></script> 
+
+</head>
+<body>
+
+    <h1>Password Generator</h1>
+
+    <!-- Select Variables Section -->
+    <div class="container">
+        <div class="column">
+            <label for="select-variable">Select Variable:</label>
+            <input type="text" id="select-variable" class="result" placeholder="Type variable here...">
+        </div>
+        <div class="column">
+            <div>Dynamic Variables: dval1 dval2 dval3 <button class="edit-button">Edit</button></div>
+            <div>Base Variables: Bval1 Bval2 Bval3 <button class="edit-button">Edit</button></div>
+        </div>
+    </div>
+
+    <!-- Divider -->
+    <div class="divider">||</div>
+
+    <!-- Modifier Selection Section -->
+    <div class="container">
+        <div class="column">
+            <label for="selected-modifier">Selected Modifier:</label>
+            <input type="text" id="selected-modifier" class="result" placeholder="Type modifier here...">
+        </div>
+        <div class="column">
+            <div>List of Modifiers: <input type="text" placeholder="Search..."> <button class="search-button">🔎</button></div>
+            <div class="modifier-list">AddValues, CountLetters, PickLetter, Repeat</div>
+        </div>
+    </div>
+
+    <!-- Divider -->
+    <div class="divider">||</div>
+
+    <!-- Result Section -->
+    <div>
+        <label for="result">Result:</label>
+        <input type="text" id="result" class="result" placeholder="Result here...">
+        <div class="actions">
+            <button>Add to total password</button>
+            <button>Send result through another modifier</button>
+        </div>
+    </div>
+
+    <!-- Final Password Result Section -->
+    <div>
+        <label for="final-password">Final Password Result:</label>
+        <input type="text" id="final-password" class="final-password" placeholder="Final result here...">
+    </div>
+
+    <!-- Formula Section -->
+    <div>
+        <label for="formula">Formula:</label>
+        <input type="text" id="formula" class="formula" placeholder="Formula line 1...">
+        <input type="text" class="formula" placeholder="Formula line 2...">
+        <button class="copy-button">Copy to clipboard</button>
+    </div>
+
+</body>
+</html>

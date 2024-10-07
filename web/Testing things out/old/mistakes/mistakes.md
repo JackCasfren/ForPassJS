@@ -1,0 +1,1 @@
+bruh, i thought ts would not need compiling. i guess its just js now.

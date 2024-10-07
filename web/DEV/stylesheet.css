@@ -9,31 +9,28 @@ body {
     font-family: 'Monolisa', sans-serif;
     margin: 20px;
 }
-.container {
-    display: flex;
-    justify-content: space-between;
-    margin-bottom: 10px;
+
+
+
+
+/* This is for the text input) */
+input[type="text"] {
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px solid #ccc;
+    font-size: 16px;
 }
-.column {
-    width: 45%;
-}
-.edit-button, .search-button, .copy-button {
+
+.green-button {
+    background-color: green;
+    color: white;
+    border: none;
+    padding: 10px 20px;
     cursor: pointer;
+    font-size: 16px;
+    border-radius: 10px;
 }
-.result, .formula, .final-password {
-    width: 100%;
-    padding: 5px;
-    margin-top: 5px;
-}
-.divider {
-    text-align: center;
-    font-size: 20px;
-}
-.modifier-list, .variable-list {
-    display: flex;
-    gap: 10px;
-    margin-top: 5px;
-}
-.actions {
-    margin-top: 10px;
+
+.green-button:hover {
+    background-color: darkgreen;
 }
