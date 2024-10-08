@@ -86,11 +86,23 @@ function addBaseVal() {
     console.log("Button added successfully.");
 }
 
+let selVal = null;
+let newSelVal = null;
+
 function selectedVal(inputValue){
+    document.getElementById("ID-" + inputValue).style.backgroundColor = "lightblue";
+    
+    selVal = "ID-" + inputValue
 
-    alert(inputValue)
 
-//
+// TODO change the color of the buton to blue
+//make some javascript code so when a button is clicked it turns blue, when it is clicked again it turns white, when a diferent button is clicked the blue changes from the old button to the new button.
+//? i may need to consider making them all a toggle-button i didn't know that
+//? 
+
+// Variable to keep track of the currently active button
+//let activeButton = null;
+
 }
 
 
