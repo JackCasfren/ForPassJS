@@ -1,4 +1,11 @@
 # ForPass Creator Project
+
+- [] Im going to make every button have a function insdie tha is called "selectedVal(String)"
+  - it is going to take a string, wich is the value.
+
+
+
+
 - [] Fill up formulators
 
 - [] make a text box where variables are added to a list

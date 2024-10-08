@@ -1,5 +1,12 @@
 //*Interacting with HTML
 
+
+window.onload = function() {
+    document.getElementById("inputTextDyn").value = "";
+    document.getElementById("inputTextBase").value = "";
+};
+
+
 function addDynVal() {
     console.log("addDynVal called");
 
@@ -31,6 +38,7 @@ function addDynVal() {
     // "item-" needs to be there, becasue other wise query selector does like it.
     button.id = "ID-" + inputValue; // Avoid using non-unique IDs
     button.className = "dynValBtn"; // added this to be able to consult if the val is Dyn or Base
+    button.onclick = () => selectedVal(inputValue);
 
     // Append the new button to the resultDiv
     resultDiv.appendChild(button);
@@ -78,6 +86,11 @@ function addBaseVal() {
     console.log("Button added successfully.");
 }
 
+function selectedVal(inputValue){
 
+    alert(inputValue)
+
+//
+}
 
 
