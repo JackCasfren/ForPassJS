@@ -70,9 +70,8 @@ Also so I can understand it.
 ## Comment on IBM's password making video.
 https://www.youtube.com/watch?v=xUp5S0nBnfc
 
-TLDR: the Video c
-discusses some research into what makes an affective password.They mention characteristics that they consider counter productive, and one of them are formulas, a batter name would be requirements.
-> "a formula(requirement) you had to follow, mixture of upper and lower case letters, numbers, special characters things like that [...] users end up with passwords they can't remember."
+TLDR: The Video discusses some research into what makes an affective password.They mention characteristics that they consider counter productive, and one of them are formulas, a better name would be requirements.
+> "...a formula(requirement) you had to follow, mixture of upper and lower case letters, numbers, special characters things like that [...] users end up with passwords they can't remember."
 
 Requirements do increase the strenght of the password, so having them is a plus.
 Just include them in your formula. idk, put 1 "?" between every word. (cog?Black?Gray?2024? -> 27 billion years lol)
